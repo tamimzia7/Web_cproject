@@ -173,3 +173,16 @@ main{
     float: left;
 
 }
+
+footer{
+    padding: 130px;
+    display: flex;
+    gap: 200px;
+}
+.footer-colum{
+    width: 50%;
+}
+.p-s{
+    width: 431px;
+    height: 64px;
+}
