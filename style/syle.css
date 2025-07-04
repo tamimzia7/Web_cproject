@@ -186,3 +186,25 @@ footer{
     width: 431px;
     height: 64px;
 }
+.hide
+{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skill-con , 
+    .about-items
+    footer{
+        flex-direction: column;
+    }
+    footer .about{
+        padding: 20px;
+
+
+    }
+    .footer-colum{
+        width: 100%;
+    }
+    footer input[types="text"],footer input[types="email"],footer textarea{
+        width: 100% - 40%;
+    }
+}
